@@ -22,7 +22,7 @@
                 width: 40px;
                 height: 40px;
                 margin-right: 7px;
-                color: white;
+                color: black;
                 font-size: 20px;
                 vertical-align: top;
             }
@@ -44,54 +44,54 @@
             <div id="image"></div>
     
             <div id="header">
-                    <center><h1>Guess the Programming Language.</h1></center>
+                    <center><h1 style="color:black">Guess the Programming Language.</h1></center>
             </div>
             <div id="screen">
                 <!-- Add as many div as my char in my language length -->
             </div>
             <div id="keypad">
                 <!-- Number row -->
-                    <div id="keyOne" onclick="getKeyPress('1')" class="key">1</div>
-                    <div id="keyTwo" onclick="getKeyPress('2')" class="key">2</div>
-                    <div id="keyThree" onclick="getKeyPress('3')" class="key">3</div>
-                    <div id="keyFour" onclick="getKeyPress('4')" class="key">4</div>
-                    <div id="keyFive" onclick="getKeyPress('5')" class="key">5</div>
-                    <div id="keySix" onclick="getKeyPress('6')" class="key">6</div>
-                    <div id="keySeven" onclick="getKeyPress('7')" class="key">7</div>
-                    <div id="keyEight" onclick="getKeyPress('8')" class="key">8</div>
-                    <div id="keyNine"  onclick="getKeyPress('9')" class="key">9</div>
-                    <div id="keyZero"  onclick="getKeyPress('0')" class="key">0</div>
+                    <button id="keyOne" onclick="getKeyPress('1')" class="key">1</button>
+                    <button id="keyTwo" onclick="getKeyPress('2')" class="key">2</button>
+                    <button id="keyThree" onclick="getKeyPress('3')" class="key">3</button>
+                    <button id="keyFour" onclick="getKeyPress('4')" class="key">4</button>
+                    <button id="keyFive" onclick="getKeyPress('5')" class="key">5</button>
+                    <button id="keySix" onclick="getKeyPress('6')" class="key">6</button>
+                    <button id="keySeven" onclick="getKeyPress('7')" class="key">7</button>
+                    <button id="keyEight" onclick="getKeyPress('8')" class="key">8</button>
+                    <button id="keyNine"  onclick="getKeyPress('9')" class="key">9</button>
+                    <button id="keyZero"  onclick="getKeyPress('0')" class="key">0</button>
                 <!-- Row 1 -->    
-                     <div id="keyQ"  onclick="getKeyPress('Q')" class="key">Q</div>
-                     <div id="keyW"  onclick="getKeyPress('W')" class="key">W</div>
-                     <div id="keyE"  onclick="getKeyPress('E')" class="key">E</div>
-                     <div id="keyR"  onclick="getKeyPress('R')" class="key">R</div>
-                     <div id="keyT"  onclick="getKeyPress('T')" class="key">T</div>
-                     <div id="keyY"  onclick="getKeyPress('Y')" class="key">Y</div>
-                     <div id="keyU"  onclick="getKeyPress('U')" class="key">U</div>
-                     <div id="keyI"  onclick="getKeyPress('I')" class="key">I</div>
-                     <div id="keyO"  onclick="getKeyPress('O')" class="key">O</div>
-                     <div id="keyP"  onclick="getKeyPress('P')" class="key">P</div>
+                     <button id="keyQ"  onclick="getKeyPress('Q')" class="key">Q</button>
+                     <button id="keyW"  onclick="getKeyPress('W')" class="key">W</button>
+                     <button id="keyE"  onclick="getKeyPress('E')" class="key">E</button>
+                     <button id="keyR"  onclick="getKeyPress('R')" class="key">R</button>
+                     <button id="keyT"  onclick="getKeyPress('T')" class="key">T</button>
+                     <button id="keyY"  onclick="getKeyPress('Y')" class="key">Y</button>
+                     <button id="keyU"  onclick="getKeyPress('U')" class="key">U</button>
+                     <button id="keyI"  onclick="getKeyPress('I')" class="key">I</button>
+                     <button id="keyO"  onclick="getKeyPress('O')" class="key">O</button>
+                     <button id="keyP"  onclick="getKeyPress('P')" class="key">P</button>
                  <!-- Row 2 -->    
-                     <div id="keyA"  onclick="getKeyPress('A')" class="key">A</div>
-                     <div id="keyS"  onclick="getKeyPress('S')" class="key">S</div>
-                     <div id="keyD"  onclick="getKeyPress('D')" class="key">D</div>
-                     <div id="keyF"  onclick="getKeyPress('F')" class="key">F</div>
-                     <div id="keyG"  onclick="getKeyPress('G')" class="key">G</div>
-                     <div id="keyH"  onclick="getKeyPress('H')" class="key">H</div>
-                     <div id="keyJ"  onclick="getKeyPress('J')" class="key">J</div>
-                     <div id="keyK"  onclick="getKeyPress('K')" class="key">K</div>
-                     <div id="keyL"  onclick="getKeyPress('L')" class="key">L</div>
+                     <button id="keyA"  onclick="getKeyPress('A')" class="key">A</button>
+                     <button id="keyS"  onclick="getKeyPress('S')" class="key">S</button>
+                     <button id="keyD"  onclick="getKeyPress('D')" class="key">D</button>
+                     <button id="keyF"  onclick="getKeyPress('F')" class="key">F</button>
+                     <button id="keyG"  onclick="getKeyPress('G')" class="key">G</button>
+                     <button id="keyH"  onclick="getKeyPress('H')" class="key">H</button>
+                     <button id="keyJ"  onclick="getKeyPress('J')" class="key">J</button>
+                     <button id="keyK"  onclick="getKeyPress('K')" class="key">K</button>
+                     <button id="keyL"  onclick="getKeyPress('L')" class="key">L</button>
                  <!-- Row 3 -->    
-                     <div id="keyZ"  onclick="getKeyPress('Z')" class="key">Z</div>
-                     <div id="keyX"  onclick="getKeyPress('X')" class="key">X</div>
-                     <div id="keyC"  onclick="getKeyPress('C')" class="key">C</div>
-                     <div id="keyV"  onclick="getKeyPress('V')" class="key">V</div>
-                     <div id="keyB"  onclick="getKeyPress('B')" class="key">B</div>
-                     <div id="keyN"  onclick="getKeyPress('N')" class="key">N</div>
-                     <div id="keyM"  onclick="getKeyPress('M')" class="key">M</div>
-                     <div id="keyPlus"  onclick="getKeyPress('+')" class="key">+</div>
-                     <div id="keyHash"  onclick="getKeyPress('#')" class="key">#</div>
+                     <button id="keyZ"  onclick="getKeyPress('Z')" class="key">Z</button>
+                     <button id="keyX"  onclick="getKeyPress('X')" class="key">X</button>
+                     <button id="keyC"  onclick="getKeyPress('C')" class="key">C</button>
+                     <button id="keyV"  onclick="getKeyPress('V')" class="key">V</button>
+                     <button id="keyB"  onclick="getKeyPress('B')" class="key">B</button>
+                     <button id="keyN"  onclick="getKeyPress('N')" class="key">N</button>
+                     <button id="keyM"  onclick="getKeyPress('M')" class="key">M</button>
+                     <button id="keyPlus"  onclick="getKeyPress('+')" class="key">+</button>
+                     <button id="keyHash"  onclick="getKeyPress('#')" class="key">#</button>
                  <!-- Row 4 -->    
                      <!-- <div id="keySpace" class="key"></div> -->
                     
