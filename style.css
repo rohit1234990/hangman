@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* background: #333333; */
+    background:#24292E;
+}
+
+#container{
+     width: 90%;
+    /* height: 550px; */
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #24292E;
+    text-align: center;
+
+}
+
+#keypad{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+
+.key {
+    
+    border: 2px solid black;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    padding-top:10px;
+    background: black;
+    cursor: default;
+}
+
+.key:hover{
+    background: #333;
+}
+
+.key:active{
+    background: #222;
+}
+
+
+#keySpace{
+    grid-row-start: 5;
+    grid-column-start: 3;
+    grid-column: span 6;
+    
+}
+
+#keyX {
+    grid-column-start: 2;
+}
