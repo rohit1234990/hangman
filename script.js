@@ -3,7 +3,7 @@
 // stores current language under process
 var currentPick
 
-// keep track of the mistakes use has made till now
+// keep track of the mistakes user has made till now
 var incorrectGuess = 0
 
 // guesssed chars
@@ -79,8 +79,10 @@ function repopulatePlaceHolder() {
     }
 
     if(str == currentPick) {
-        alert('You Win !!')
-        main()
+        setTimeout(function() { 
+            alert('You Win !!')
+            main()    
+        }, 1000);
     }
     
 
@@ -158,11 +160,6 @@ function getKeyPress(key) {
         incorrectGuess++
         var percentageWrong = Math.floor((incorrectGuess/ ulen) * 100)
         updateHangman(Math.floor(percentageWrong * .10) * 10)
-        /* alert('pick : ' + currentPick + '\n ulen : ' + ulen + '\n tlen : ' 
-                        + totalChars + '\n incguess :' 
-                        + incorrectGuess
-                        + '\n Percentage woring : ' + percentageWrong
-                        + '\n Ceil : ' + Math.floor(percentageWrong * .10) * 10 ) */
     }
     else {
         currectGuess.push(key)

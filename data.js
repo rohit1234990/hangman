@@ -1,15 +1,15 @@
 
 var languages = ['C', 'C++', 'C#', 'JAVA', 'PYTHON',
                 'Angelscript', 'Apex', 'APL', 'AppleScript', 'Arc', 'Arduino', 'ASP', 'AutoLISP',
-                'Awk', 'Bash', 'Clojure', 'COBOL', 'CoffeeScript', 'ColdFusion', 'Common Lisp', 
-                'Delphi', 'ECMAScript', 'FoxPro', 'Google AppsScript', 'Haskell', 'J', 'JADE',
+                'Awk', 'Bash', 'Clojure', 'COBOL', 'CoffeeScript', 'ColdFusion', 'CommonLisp', 
+                'Delphi', 'ECMAScript', 'FoxPro', 'GoogleAppsScript', 'Haskell', 'J', 'JADE',
                 'Java', 'JavaScript', 'Lisp', 'Logo', 'Logtalk', 'LotusScript', 'Mathematica', 'MATLAB',
                 'Monkey', 'MUMPS', 'NATURAL', 'Nemerle', 'Oberon', 'Pascal', 'Perl', 'PHP', 'Pike',
                 'PILOT', 'Pliant', 'PostScript', 'PowerBasic', 'PowerScript', 'PowerShell', 'Prolog',
-                'Puppet', 'Pure Data', 'REALBasic', 'Ruby', 'Rust', 'Sather', 'Scala', 'Scheme', 'Scilab',
+                'Puppet', 'PureData', 'REALBasic', 'Ruby', 'Rust', 'Sather', 'Scala', 'Scheme', 'Scilab',
                 'Scratch', 'Simula', 'Simulink', 'Slate', 'Smalltalk', 'Smarty', 'SPARK', 'Squeak',
                 'Squirrel', 'SuperCollider', 'thinBasic', 'Turing', 'TypeScript', 'VBScript',
-                'Verilog', 'Whitespace', 'xBase', 'XQuery', 'yacc', 'Yorick', 'Z shell'] 
+                'Verilog', 'Whitespace', 'xBase', 'XQuery', 'yacc', 'Yorick', 'Zshell'] 
 
 
 function uniqueLanguages() {
