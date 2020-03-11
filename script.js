@@ -17,7 +17,7 @@ function reset() {
     guesssedChars = []
     currectGuess = []
     image = document.getElementById('image')
-    image.style.backgroundImage = "url('')"
+    image.style.backgroundImage = "url('images/Hangman-0.png')"
     clearPlaceHolder()
 }
 
@@ -82,7 +82,7 @@ function repopulatePlaceHolder() {
         setTimeout(function() { 
             alert('You Win !!')
             main()    
-        }, 1000);
+        }, 500);
     }
     
 
@@ -98,30 +98,31 @@ function updateHangman(percentageWrong) {
     switch(percentageWrong) {
         case 10:
         case 20:
-            image.style.backgroundImage = "url('images/Hangman-0.png')"
+            image.style.backgroundImage = "url('images/Hangman-1.png')"
         break
         case 30:
         case 40:
-            image.style.backgroundImage = "url('images/Hangman-1.png')"
+            image.style.backgroundImage = "url('images/Hangman-2.png')"
         break
         case 50:
         case 60:
-            image.style.backgroundImage = "url('images/Hangman-2.png')"
-        break
-        case 70:
             image.style.backgroundImage = "url('images/Hangman-3.png')"
         break
-        case 80:
+        case 70:
             image.style.backgroundImage = "url('images/Hangman-4.png')"
         break
+        case 80:
         case 90:
             image.style.backgroundImage = "url('images/Hangman-5.png')"
         break
         case 100:
             image.style.backgroundImage = "url('images/Hangman-6.png')"
-            alert('You Loose !!'
+            setTimeout(function() { 
+                alert('You Loose !!'
                  + "\nIt's " + currentPick )
-            main()
+                main()
+            }, 500);
+            
         
     }
 

@@ -27,7 +27,10 @@ function uniqueLanguages() {
     lang = new Set(lang)
     new_arr = []
     for(x of lang) {
-        new_arr.push(x)
+        // slanguate length fixing for 8 chars
+        if (x.length <=8) {
+            new_arr.push(x)
+        }
     }
     return new_arr
 }            
